@@ -1,0 +1,110 @@
+update-initramfs   update ram file system for new build
+
+boot$ update-grub
+
+source$ make menuconfig -u -t -c 2.6.32-5-686
+
+apt-get install linux-headers-$(uname -r)   install linux header
+
+
+if failed make menuconfig
+{
+aptitude install build-essential
+
+aptitude install libncurses-dev 
+}
+
+
+
+W: GPG error: http://ppa.launchpad.net jaunty Release: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 632D16BB0C713DA6
+
+gpg --keyserver keyserver.ubuntu.com --recv 0c713da6
+gpg --export --armor 0c713da6 | sudo apt-key add -
+
+* the 0c713da6 is the last 8 char form error message.
+
+
+
+
+Build xbmd:
+( Dedian Linux atom-evm2 2.6.32-5-686 #1 SMP Sun May 6 04:01:19 UTC 2012 i686 GNU/Linux)
+ 
+Install:
+
+1. kernel-package   v.12.036+nmu1
+2. gtk-sharp2 	    v.2.12.10-1
+3. libgtk2.0-cil-dev v.2.12.10-1
+4. glade              V.3.6.7-1+b1
+
+Step 1:  Add Jaunty Ubuntu Mobile sources
+
+Add the following line to your /etc/apt/sources.list file:
+
+deb-src http://ppa.launchpad.net/ubuntu-mobile/ppa/ubuntu jaunty main
+
+Save and quit file.
+
+Update repositories with the new sources:
+
+# apt-get update
+
+Alternatively you can get the packages from here.
+
+Step 2: Prepare your system
+
+We need to make sure that we have kernel header files and some other development packages installed for the currently running kernel:
+
+# apt-get install devscripts dkms module-assistant dpatch autotools-dev quilt libx11-dev pkg-config xserver-xorg-dev x11proto-gl-dev x11proto-video-dev libgl1-mesa-dev libxvmc-dev x11proto-core-dev x11proto-fonts-dev x11proto-randr-dev x11proto-render-dev x11proto-xinerama-dev x11proto-xf86dri-dev x11proto-xf86dga-dev x11proto-xf86misc-dev libxfixes-dev libxdamage-dev libexpat1-dev
+# m-a prepare
+
+
+Cp xbmd /root/xbmd
+
+chmod 755 load_driver
+
+
+Building the Kernel Driver and Application
+The xbmd directory contains all the required files and scripts to build the driver and application,
+as well as the files and scripts to insert the driver into the kernel
+1. With root privileges, move the xbmd directory to /root.
+2. "cd" into /root/xbmd
+3. Execute run_bmd.csh which will do the following:
+  a. Compile the kernel driver 
+  b. Insert the driver into the kernel using command /sbin/insmod
+  c. Use GTK Builder to convert the glade file to the XML
+  d. Compile the application source and output the application executable "xbmd_app"
+
+
+Cp /root/xbmd  user_home/xbmd 
+
+executable "xbmd_app"
+
+
+
+
+
+
+Useful link:
+http://billfarrow.blogspot.ca/2010/09/userspace-access-to-pci-memory.html
+https://github.com/billfarrow/pcimem
+
+./pcimem /sys/bus/pci/devices/0000\:02\:00.0/resource0  24 w
+
+
+
+
+Create device-matching udev rules and permissions
+http://www.weather-watch.com/smf/index.php?topic=39257.0
+
+  #	lspci -v -nn
+  #	CLUE=02:00.0
+  #	for 
+DEVICE in $(find /sys ! -type l -iname "*${CLUE}*"); do ls -dl $DEVICE; udevadm info -a -p $DEVICE; done
+
+#sudo /etc/init.d/udev restart
+
+
+/etc/udev/rules.d/xbmm_pci.rule
+lsmod
+modprob
+modinfo
