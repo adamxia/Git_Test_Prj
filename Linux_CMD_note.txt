@@ -108,3 +108,6 @@ DEVICE in $(find /sys ! -type l -iname "*${CLUE}*"); do ls -dl $DEVICE; udevadm 
 lsmod
 modprob
 modinfo
+
+
+Added one line
