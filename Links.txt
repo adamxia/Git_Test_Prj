@@ -1,2 +1,5 @@
 https://sites.google.com/site/rk2918tools/kernel-sources
 http://elinux.org/Android_Device
+http://www.modaco.com/topic/349114-devscyanogenmod-for-the-andypad/
+https://github.com/naobsd/cm_device_rockchip_rk2918
+http://www.freaktab.com/showthread.php?287-RockChip-ROM-Building-Tips-and-Tricks-by-Finless
