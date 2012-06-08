@@ -1,1 +1,2 @@
 https://sites.google.com/site/rk2918tools/kernel-sources
+http://elinux.org/Android_Device
