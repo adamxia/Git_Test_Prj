@@ -1,0 +1,28 @@
+rkdump for android
+
+rkdump_android.zip
+
+> adb push rkdump /data/ (or somewhere you can push)
+> adb shell
+# cat /proc/mtd
+(check partition number and partition name)
+# chmod 755 /data/rkdump
+# /data/rkdump /dev/block/mtdblock1 /sdcard/kernel.img
+kernel.img found (4731248 bytes)
+dumping...
+crc found (4 bytes, 0x973f7d99)
+done
+# /data/rkdump /dev/block/mtdblock2 /sdcard/boot.img
+cramfs found (172032 bytes)
+dumping...
+crc found (4 bytes, 0xffcd3429)
+done
+# /data/rkdump /dev/block/mtdblock3 /sdcard/recovery.img
+  :
+# /data/rkdump /dev/block/mtdblock4 /sdcard/system.img
+  :
+# /data/rkdump /dev/block/mtdblock5 /sdcard/update.img
+update.img found (116115456 bytes)
+dumping...
+crc found (4 bytes, 0x0709e735)
+done
