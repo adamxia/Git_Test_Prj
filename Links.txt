@@ -4,3 +4,14 @@ http://www.modaco.com/topic/349114-devscyanogenmod-for-the-andypad/
 https://github.com/naobsd/cm_device_rockchip_rk2918
 http://www.freaktab.com/showthread.php?287-RockChip-ROM-Building-Tips-and-Tricks-by-Finless
 http://www.freaktab.com/showthread.php?401-Dumping-ROM-using-ADB-guide
+
+Books:
+https://docs.google.com/gview?url=http://os.ibds.kit.edu/2055.php&chrome=true
+http://www.hsc.com/Portals/0/Uploads/Articles/Android-Porting-on-Embedded-Platform_v2_0633850602027036930.pdf
+http://asaha.com/ebook/jMzk0MDM-/Advanced-Android-Development.pdf#
+http://rd211.com/docu/9440.html
+
+ECG/EEG
+http://www.physionet.org/physiotools/matlab/ECGwaveGen/
+http://www.physionet.org/cgi-bin/atm/ATM?tool=&database=aami-ec13&rbase=&srecord=&annotator=&signal=&sfreq=&tstart=&tdur=&tfinal=&action=&tfmt=&dfmt=&nbwidth=
+http://www.physionet.org/physiotools/wfdb.shtml
