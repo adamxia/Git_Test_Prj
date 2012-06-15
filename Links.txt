@@ -4,6 +4,8 @@ http://www.modaco.com/topic/349114-devscyanogenmod-for-the-andypad/
 https://github.com/naobsd/cm_device_rockchip_rk2918
 http://www.freaktab.com/showthread.php?287-RockChip-ROM-Building-Tips-and-Tricks-by-Finless
 http://www.freaktab.com/showthread.php?401-Dumping-ROM-using-ADB-guide
+http://www.arm9home.net/
+http://arm9home.taobao.com/
 
 Books:
 https://docs.google.com/gview?url=http://os.ibds.kit.edu/2055.php&chrome=true
