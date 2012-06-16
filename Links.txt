@@ -7,6 +7,7 @@ http://www.freaktab.com/showthread.php?401-Dumping-ROM-using-ADB-guide
 http://www.arm9home.net/
 http://arm9home.taobao.com/
 
+
 Books:
 https://docs.google.com/gview?url=http://os.ibds.kit.edu/2055.php&chrome=true
 http://www.hsc.com/Portals/0/Uploads/Articles/Android-Porting-on-Embedded-Platform_v2_0633850602027036930.pdf
@@ -17,3 +18,7 @@ ECG/EEG
 http://www.physionet.org/physiotools/matlab/ECGwaveGen/
 http://www.physionet.org/cgi-bin/atm/ATM?tool=&database=aami-ec13&rbase=&srecord=&annotator=&signal=&sfreq=&tstart=&tdur=&tfinal=&action=&tfmt=&dfmt=&nbwidth=
 http://www.physionet.org/physiotools/wfdb.shtml
+
+
+
+http://www.eda365.com/home.php?mod=space&do=notice
