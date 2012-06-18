@@ -6,6 +6,7 @@ http://www.freaktab.com/showthread.php?287-RockChip-ROM-Building-Tips-and-Tricks
 http://www.freaktab.com/showthread.php?401-Dumping-ROM-using-ADB-guide
 http://www.arm9home.net/
 http://arm9home.taobao.com/
+http://item.taobao.com/item.htm?id=8576993165
 
 Books:
 https://docs.google.com/gview?url=http://os.ibds.kit.edu/2055.php&chrome=true
@@ -17,3 +18,6 @@ ECG/EEG
 http://www.physionet.org/physiotools/matlab/ECGwaveGen/
 http://www.physionet.org/cgi-bin/atm/ATM?tool=&database=aami-ec13&rbase=&srecord=&annotator=&signal=&sfreq=&tstart=&tdur=&tfinal=&action=&tfmt=&dfmt=&nbwidth=
 http://www.physionet.org/physiotools/wfdb.shtml
+
+Bluetooth:
+http://stackoverflow.com/questions/3922893/connect-to-non-discoverable-bluetooth-device
