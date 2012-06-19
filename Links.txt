@@ -20,7 +20,7 @@ http://www.physionet.org/physiotools/matlab/ECGwaveGen/
 http://www.physionet.org/cgi-bin/atm/ATM?tool=&database=aami-ec13&rbase=&srecord=&annotator=&signal=&sfreq=&tstart=&tdur=&tfinal=&action=&tfmt=&dfmt=&nbwidth=
 http://www.physionet.org/physiotools/wfdb.shtml
 
-<<<<<<< HEAD
+HEAD
 Bluetooth:
 http://stackoverflow.com/questions/3922893/connect-to-non-discoverable-bluetooth-device
 http://item.taobao.com/item.htm?id=14027944181&ali_trackid=2:mm_14507416_2297358_8935934,0:1340046299_4z4_1028015532
@@ -28,4 +28,3 @@ http://item.taobao.com/item.htm?id=14027944181&ali_trackid=2:mm_14507416_2297358
 
 
 http://www.eda365.com/home.php?mod=space&do=notice
->>>>>>> origin/master
