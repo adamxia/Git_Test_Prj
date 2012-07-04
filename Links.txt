@@ -14,13 +14,15 @@ https://docs.google.com/gview?url=http://os.ibds.kit.edu/2055.php&chrome=true
 http://www.hsc.com/Portals/0/Uploads/Articles/Android-Porting-on-Embedded-Platform_v2_0633850602027036930.pdf
 http://asaha.com/ebook/jMzk0MDM-/Advanced-Android-Development.pdf#
 http://rd211.com/docu/9440.html
+<<Embedded Android>>
+http://www.mobilemarketingcn.com/wp-content/uploads/EmbeddedAndroidKarimYaghmourebooksfreedo_14069/Embedded.AndroidPorting.Extending.and.CustomizingEarly.Release.Karim.Yaghmour.pdf
 
 ECG/EEG
 http://www.physionet.org/physiotools/matlab/ECGwaveGen/
 http://www.physionet.org/cgi-bin/atm/ATM?tool=&database=aami-ec13&rbase=&srecord=&annotator=&signal=&sfreq=&tstart=&tdur=&tfinal=&action=&tfmt=&dfmt=&nbwidth=
 http://www.physionet.org/physiotools/wfdb.shtml
 
-HEAD
+
 Bluetooth:
 http://stackoverflow.com/questions/3922893/connect-to-non-discoverable-bluetooth-device
 http://item.taobao.com/item.htm?id=14027944181&ali_trackid=2:mm_14507416_2297358_8935934,0:1340046299_4z4_1028015532
