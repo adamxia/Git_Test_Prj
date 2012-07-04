@@ -7,7 +7,7 @@ http://www.freaktab.com/showthread.php?401-Dumping-ROM-using-ADB-guide
 http://www.arm9home.net/
 http://arm9home.taobao.com/
 http://item.taobao.com/item.htm?id=8576993165
-
+http://www.oneping.com.tw/ PL2303
 
 Books:
 https://docs.google.com/gview?url=http://os.ibds.kit.edu/2055.php&chrome=true
