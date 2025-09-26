@@ -27,4 +27,4 @@ Git_Test_Prj
 http://httpforever.com/
 
 ## Tools
-https://github.com/git-for-windows/git/releases/download/v2.51.0.windows.1/Git-2.51.0-64-bit.exe
+[Click here to download the latest (2.51.0) x64 version of Git for Windows](https://github.com/git-for-windows/git/releases/download/v2.51.0.windows.1/Git-2.51.0-64-bit.exe)
